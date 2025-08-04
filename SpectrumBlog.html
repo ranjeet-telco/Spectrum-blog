@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Understanding Spectrum Distribution, FDD & TDD</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans leading-relaxed">
+  <div class="max-w-4xl mx-auto p-6">
+    <h1 class="text-4xl font-bold text-blue-400 mb-4">Understanding Spectrum Distribution in RF & Frequency Bands Used in FDD and TDD</h1>
+
+    <section class="mb-6">
+      <h2 class="text-2xl font-semibold text-yellow-300">✅ What is Spectrum in RF?</h2>
+      <p class="mt-2">In Radio Frequency (RF) communication, <strong>spectrum</strong> refers to the range of electromagnetic frequencies used to transmit wireless signals. It's essentially the <em>"invisible highway"</em> over which all wireless communication travels.</p>
+    </section>
+
+    <section class="mb-6">
+      <h2 class="text-2xl font-semibold text-yellow-300">✅ Spectrum Distribution in RF</h2>
+      <p class="mt-2">The RF spectrum spans from <strong>3 kHz to 300 GHz</strong> and is divided into different bands:</p>
+      <div class="overflow-x-auto mt-3">
+        <table class="min-w-full bg-gray-800 rounded-lg">
+          <thead>
+            <tr class="bg-gray-700 text-left">
+              <th class="p-3">Band Name</th>
+              <th class="p-3">Frequency Range</th>
+              <th class="p-3">Common Uses</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td class="p-3">LF</td><td class="p-3">30 – 300 kHz</td><td class="p-3">Navigation, AM broadcasting</td></tr>
+            <tr><td class="p-3">MF</td><td class="p-3">300 kHz – 3 MHz</td><td class="p-3">AM Radio</td></tr>
+            <tr><td class="p-3">HF</td><td class="p-3">3 – 30 MHz</td><td class="p-3">Shortwave, Amateur Radio</td></tr>
+            <tr><td class="p-3">VHF</td><td class="p-3">30 – 300 MHz</td><td class="p-3">FM Radio, TV, Air Traffic</td></tr>
+            <tr><td class="p-3">UHF</td><td class="p-3">300 MHz – 3 GHz</td><td class="p-3">Mobile phones, Wi-Fi, GPS</td></tr>
+            <tr><td class="p-3">SHF</td><td class="p-3">3 – 30 GHz</td><td class="p-3">5G, Satellite, Radar</td></tr>
+            <tr><td class="p-3">EHF</td><td class="p-3">30 – 300 GHz</td><td class="p-3">Advanced Radar, mmWave 5G</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="mb-6">
+      <h2 class="text-2xl font-semibold text-yellow-300">✅ FDD vs TDD: Spectrum Usage</h2>
+      <div class="overflow-x-auto mt-3">
+        <table class="min-w-full bg-gray-800 rounded-lg">
+          <thead>
+            <tr class="bg-gray-700 text-left">
+              <th class="p-3">Feature</th>
+              <th class="p-3">FDD</th>
+              <th class="p-3">TDD</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td class="p-3">Transmission</td><td class="p-3">Separate UL/DL frequencies</td><td class="p-3">Same frequency, split by time</td></tr>
+            <tr><td class="p-3">Spectrum Type</td><td class="p-3">Paired</td><td class="p-3">Unpaired</td></tr>
+            <tr><td class="p-3">Latency</td><td class="p-3">Lower</td><td class="p-3">Slightly higher</td></tr>
+            <tr><td class="p-3">Best for</td><td class="p-3">Symmetric traffic</td><td class="p-3">Asymmetric traffic</td></tr>
+            <tr><td class="p-3">Cost</td><td class="p-3">Higher</td><td class="p-3">Lower</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="mb-6">
+      <h2 class="text-2xl font-semibold text-yellow-300">✅ Frequency Bands for FDD</h2>
+      <div class="overflow-x-auto mt-3">
+        <table class="min-w-full bg-gray-800 rounded-lg">
+          <thead>
+            <tr class="bg-gray-700 text-left">
+              <th class="p-3">Band</th>
+              <th class="p-3">Uplink (MHz)</th>
+              <th class="p-3">Downlink (MHz)</th>
+              <th class="p-3">Region/Use</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td class="p-3">1</td><td class="p-3">1920 – 1980</td><td class="p-3">2110 – 2170</td><td class="p-3">Global</td></tr>
+            <tr><td class="p-3">3</td><td class="p-3">1710 – 1785</td><td class="p-3">1805 – 1880</td><td class="p-3">Europe, Asia</td></tr>
+            <tr><td class="p-3">5</td><td class="p-3">824 – 849</td><td class="p-3">869 – 894</td><td class="p-3">North America</td></tr>
+            <tr><td class="p-3">7</td><td class="p-3">2500 – 2570</td><td class="p-3">2620 – 2690</td><td class="p-3">Global</td></tr>
+            <tr><td class="p-3">20</td><td class="p-3">832 – 862</td><td class="p-3">791 – 821</td><td class="p-3">Europe</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="mb-6">
+      <h2 class="text-2xl font-semibold text-yellow-300">✅ Frequency Bands for TDD</h2>
+      <div class="overflow-x-auto mt-3">
+        <table class="min-w-full bg-gray-800 rounded-lg">
+          <thead>
+            <tr class="bg-gray-700 text-left">
+              <th class="p-3">Band</th>
+              <th class="p-3">Frequency Range (MHz)</th>
+              <th class="p-3">Region/Use</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td class="p-3">38</td><td class="p-3">2570 – 2620</td><td class="p-3">Europe, Asia</td></tr>
+            <tr><td class="p-3">40</td><td class="p-3">2300 – 2400</td><td class="p-3">India</td></tr>
+            <tr><td class="p-3">41</td><td class="p-3">2496 – 2690</td><td class="p-3">USA, China</td></tr>
+            <tr><td class="p-3">42</td><td class="p-3">3400 – 3600</td><td class="p-3">Global 5G</td></tr>
+            <tr><td class="p-3">43</td><td class="p-3">3600 – 3800</td><td class="p-3">Europe, Asia</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="mb-6">
+      <h2 class="text-2xl font-semibold text-yellow-300">✅ mmWave 5G Bands</h2>
+      <div class="overflow-x-auto mt-3">
+        <table class="min-w-full bg-gray-800 rounded-lg">
+          <thead>
+            <tr class="bg-gray-700 text-left">
+              <th class="p-3">Band</th>
+              <th class="p-3">Frequency Range (GHz)</th>
+              <th class="p-3">Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td class="p-3">n257</td><td class="p-3">26.5 – 29.5</td><td class="p-3">Europe, Asia</td></tr>
+            <tr><td class="p-3">n258</td><td class="p-3">24.25 – 27.5</td><td class="p-3">Global</td></tr>
+            <tr><td class="p-3">n260</td><td class="p-3">37 – 40</td><td class="p-3">USA</td></tr>
+            <tr><td class="p-3">n261</td><td class="p-3">27.5 – 28.35</td><td class="p-3">USA</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="mt-10 border-t border-gray-700 pt-4">
+      <p class="text-lg">This post is part of the <strong class="text-blue-300">"Learn 5G & RF Series"</strong>. Follow for more updates on telecom, spectrum, and network technology.</p>
+    </section>
+  </div>
+</body>
+</html>
